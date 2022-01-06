@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Code Quiz</title>
+
+</head>
+<body>
+    <header>
+        <!-- Header containing the link to the high scores, and the countdown timer -->
+        <h1 id="view-highscores"><a href="highscore.html">View Highscores</a></h1>
+        <br>
+        <h1 id="countdown-timer">Countdown Timer: </h1>
+    </header>
+    <main>
+        <!-- Container that holds the title of the challenge, and the descriptor text, as well as the button to proceed. -->
+        <div class ="quizContainer">        
+            <div class ="quiz-title-text">
+                Music Quiz Challenge
+            </div>
+            <br>
+           <p>
+                Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score time by ten seconds!
+           </p>
+        </div>
+        <!-- Button that will begin the game, and take you to the index page -->
+        <button onclick="location.href='index.html'" id="start-button" type="button">START</button>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

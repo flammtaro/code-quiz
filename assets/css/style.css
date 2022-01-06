@@ -1,0 +1,135 @@
+header{
+    justify-content: space-between;
+    height: 30px;
+    display:flex;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow:1px 1px;
+}
+
+ul{
+    list-style-type: none;
+}
+p{
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.quizContainer
+{
+    box-sizing: content-box;
+    width:30%;
+    left: 10%;
+    margin-top: 10%;
+    margin-left: 33%;
+
+} 
+.quiz-title-text
+{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+.quiz-body
+{
+    font-size: 20px;
+    text-align: left;
+    /* margin-left: 30%; */
+}
+a:link{
+    text-decoration: none;
+    
+}
+#start-button{
+    text-decoration: none;
+    margin-left:46%;
+    margin-top: 2%;
+    padding: 2px;
+    border-style: inset;
+    background-color: purple;
+    border-radius: 12px;
+    font-size: x-large;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#start-button:hover{
+    background-color: rgb(197, 6, 255);
+}
+#restart-button{
+    text-decoration: none;
+    margin-left:46%;
+    margin-top: 2%;
+    padding: 2px;
+    border-style: inset;
+    background-color: purple;
+    border-radius: 12px;
+    font-size: x-large;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#restart-button:hover{
+    background-color: rgb(197, 6, 255);
+}
+#high-score-button{
+    text-decoration: none;
+    margin-left:46%;
+    margin-top: 2%;
+    padding: 2px;
+    border-style: inset;
+    background-color: purple;
+    border-radius: 12px;
+    font-size: x-large;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#high-score-button:hover{
+    background-color: rgb(197, 6, 255);
+}
+.button1{
+    border-style: inset;
+    background-color: purple;
+    border-radius: 12px;
+    font-size: x-large;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button1:hover{
+    background-color: rgb(197, 6, 255);
+}
+.button2{
+    border-style: inset;
+    background-color: purple;
+    border-radius: 12px;
+    color: white;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button2:hover{
+    background-color: rgb(197, 6, 255);
+}
+.button3{
+    border-style: inset;
+    background-color: purple;
+    border-radius: 12px;
+    color: white;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button3:hover{
+    background-color: rgb(197, 6, 255);
+}
+.button4{
+    border-style: inset;
+    background-color: purple;
+    border-radius: 12px;
+    color: white;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button4:hover{
+    background-color: rgb(197, 6, 255);
+}

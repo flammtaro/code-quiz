@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Code Quiz</title>
+
+</head>
+<body>
+    <header>
+        <!-- Header containing the link to the high scores -->
+        <h1 id="view-highscores"><a href="highscore.html">View Highscores</a></h1>
+    </header>
+    <main>
+        <div class ="quizContainer">        
+            <!-- Winning text! -->
+            <div class ="quiz-title-text">
+                Congratulations! You win!
+            </div>
+            <br>
+            <!-- Where to submit your initials, and your score - Not working properly -->
+            <p id="final-score">Your Final Score: </p>
+            <form id="enter-initials" method="POST">
+             <label for="name">Enter Initials:</label>
+             <input type="text" id="initials" name="initials"><br><br>
+             <input type="submit" value="Submit">
+           </form>
+        </div>
+        <!-- Button to take you to the high score screen -->
+        <button onclick="location.href='highscore.html'" id="high-score-button" type="button">Highscores</button>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
