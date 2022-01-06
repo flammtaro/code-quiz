@@ -28,7 +28,7 @@ countdownTimer.textContent = "Countdown: " + timer;
 //Loads the startGame function as soon as the index.html page is loaded
 window.onload = function()
 {
-    if(window.location.href.indexOf('index.html') > -1)
+    if(window.location.href.indexOf('game.html') > -1)
     {
         startGame();
     }
